@@ -4211,7 +4211,7 @@
     <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
-    <ROW Environment="PATH" Name="=-PATH" Value="[~];[APPDIR]bin" Component_="COPYING"/>
+    <ROW Environment="PATH" Name="=-PATH" Value="[APPDIR]bin;[~]" Component_="COPYING"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="emacs_1.exe" SourcePath="emacs-24.2\bin\emacs.exe" Index="0"/>
