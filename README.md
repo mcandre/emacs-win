@@ -1,5 +1,9 @@
 # emacs-win - Windows installer for Emacs
 
+# DOWNLOAD
+
+https://github.com/mcandre/emacs-win/blob/master/emacs-24.2.msi?raw=true
+
 # CREDITS
 
 Binaries - [emacs-for-windows](https://code.google.com/p/emacs-for-windows/)
