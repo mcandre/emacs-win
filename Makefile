@@ -1,4 +1,6 @@
+AIP=emacs-24.2.aip
+
 all: installer
 
-installer: emacs-24.2.aip
-	AdvancedInstaller /build emacs-24.2.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
